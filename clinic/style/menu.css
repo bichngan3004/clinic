@@ -1,0 +1,28 @@
+
+#menu{
+    height: 80px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #330099;
+    
+}
+#menu-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+#menu-list ul li{
+ padding: 30px ;
+line-height: 30px;
+}
+#menu-list ul li a{
+    color: white;
+    transition: all 0.5s ease-out;
+}
+#menu-list ul li a:hover{
+    color: aqua;
+    text-decoration: none; 
+}

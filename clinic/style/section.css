@@ -1,0 +1,83 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .introduce{
+       width: 1200px;
+       margin: 0 auto;
+       display: flex;
+       margin-top: 50px;
+   }
+  
+   .introduce-noidung{
+       width: 600px;
+       padding-left: 30px;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+   }
+   .introduce-noidung span{
+       font-size: 30px;
+   }
+   .introduce-noidung h4{
+       font-size: 45px;
+      
+   }
+   .introduce-noidung p{
+       font-size: 18px;
+       line-height: 30px;
+   }
+   
+   
+.khoa{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.khoa h1{
+    text-align: center;
+    color: #330099;
+    font-weight: bold;
+}
+
+
+.khoa .list-khoa{
+    display: flex;
+    width: 1200px;
+    
+}
+.list-khoa-dd, .list-khoa-noi, .list-khoa-ngoai, .list-khoa-tm{
+    width: 300px;
+    
+}
+.list-khoa-dd, .list-khoa-noi, .list-khoa-ngoai, .list-khoa-tm img{
+    margin: 0 10px;
+}
+
+.list-khoa-hh, .list-khoa-tmh, .list-khoa-rhm, .list-khoa-tl {
+    width: 300px;
+    
+}
+.list-khoa-hh, .list-khoa-tmh, .list-khoa-rhm .list-khoa-tl img{
+    margin: 0 5px;
+}
+.khoa .list-khoa img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 200px;
+   
+}
+.list-khoa .title-khoa{
+    font-size: 18px;
+	
+}
+.list-khoa a{
+    color: #330099;
+    font-weight: bold;
+    
+}
+.list-khoa a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+

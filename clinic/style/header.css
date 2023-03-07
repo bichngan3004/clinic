@@ -1,0 +1,34 @@
+
+header{
+    height: 120px;
+    border: 1px solid black;
+    font-size: 15px;
+    
+}
+
+.col-md-2{
+    padding: 20px 0px;
+}
+#account{
+  padding-left: 50px;
+}
+ul .parent{
+  list-style: none;
+}
+ul .children{
+  width: 150px;
+  height: 50px;
+  
+  list-style: none;
+  display: none;
+  
+ 
+}
+.children{
+  padding: 2px;
+}
+
+.parent:hover .children{
+  display: block;
+  color: white;
+}
